@@ -1,0 +1,19 @@
+{
+  "name": "nodecopter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "node scripted.js",
+    "udp": "node udp.js",
+    "navdata": "node navdata.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ar-drone": "^0.3.3",
+    "keypress": "^0.2.1",
+    "tty": "^1.0.1"
+  }
+}
